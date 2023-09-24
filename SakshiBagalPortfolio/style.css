@@ -1,0 +1,268 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style:none ;
+}
+
+body{
+
+   background-image: url("background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
+
+
+nav{
+   background-image: url("darkgray.jpg");
+   height: 70px;
+   width: 100%;
+   position: fixed;
+}
+label.logo{
+   
+   font-size: 30px;
+   font-weight: bolder;
+   color: aliceblue;
+   position: absolute;
+   left: 100px;
+   top: 20px;
+   line-height: 33px;
+   
+   }
+
+ nav ul{
+   float: right;
+   margin-right: 20px;
+   
+   }
+ nav ul li{
+   
+   line-height: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+}
+ul li a{
+    color:aliceblue;
+   font-size: 20px;
+   padding :15px 30px;  
+   cursor: pointer;
+}
+a:hover{
+   color:rgb(161, 246, 206);
+  
+   }
+   
+   
+#Home{
+   color:white ;
+   height:100vh;  
+   width:100%; 
+}
+
+
+
+
+    .imgsakshi {
+      background-image: url("myimg2.webp" );
+      width: 100%;
+      height: 100vh;
+    
+       }
+       .home-info{
+         color:aliceblue;
+        font-size: 20px;
+        padding-left:47%;
+        padding-top:18%;
+        line-height: 5px;
+
+        
+       
+      }
+   button{
+      color: black;
+
+      font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   margin: 25px;
+   border-radius: 5px;
+   width: 80px;
+   background-color: rgb(7, 144, 135);
+     }
+   
+      .home-info2{
+           
+        color:aliceblue;
+         word-spacing: 3px;
+         font-size:20px;
+         text-align: center;
+         padding-left:100px;
+         padding-top: 25px;
+      
+         
+         }
+      
+       h2{
+        color :rgb(45, 98, 80);
+         text-align: center;
+         font-size: 40px;
+         font-family:cursive;
+         }
+   
+  
+.name{
+   color:rgb(161, 246, 206);
+   font-size: 40px;
+ }
+
+#skills{
+   padding: 100px 50px;
+   height:100vh; 
+    width:100%;  
+}
+.p1{
+   color:rgb(115, 237, 196);
+}
+
+.skills-row{
+   height: 90%;
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap ;
+   background-color:rgba(0, 0, 0, 0.547);
+   padding:  50px ;
+   border-radius: 50px;
+}
+.skills-left-row{
+flex-basis: 50%;
+text-align: justify;
+color:aliceblue;
+font-size: 20px;
+}
+.skills-right-row{
+flex-basis: 50%;
+color: rgb(119, 246, 204);
+
+}
+
+
+progress{
+   width: 80%;
+   
+}
+
+.progress-div{
+   width:70%;
+   margin:auto;
+  
+}
+
+.progress-div p{
+   margin-bottom: 10px;
+   font-size: 20px;
+   padding-left: 80px;
+}
+
+#project
+{
+height:100vh;  width:100%;
+}
+#about{
+    height:100vh;  width:100%; 
+    padding: 100px 50px; 
+}
+.sec-info{
+   font-weight: bold;
+ text-align: center;
+
+}
+
+.about-row{
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   border-radius:50px ;
+   background-color:rgba(0, 0, 0, 0.547);
+}
+.about-left-col{
+   flex-basis: 50%;
+}
+.about-left-col img{
+    width: 50%;
+    height: 80%;
+   border-radius: 40%;
+   margin-left: 30px;  
+}
+
+.about-right-col {
+   flex-basis: 50%;
+   color: aliceblue;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.about-right-col p{
+   margin-right: 100px;
+}
+
+
+.project-heading {
+   padding-top: 100px;
+}
+
+.poject-row{
+   margin-left: 30px;
+   margin-right: 40px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   border-radius:50px ;
+   height: 70%;
+   background-color:rgba(0, 0, 0, 0.547);
+}
+.project-left-col{
+   flex-basis: 50%;
+}
+.project-left-col img{
+   height: 70%;
+   margin-left: 20px;
+
+}
+
+.project-right-col {
+   flex-basis: 50%;
+   color: aliceblue;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.project-right-col p{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
